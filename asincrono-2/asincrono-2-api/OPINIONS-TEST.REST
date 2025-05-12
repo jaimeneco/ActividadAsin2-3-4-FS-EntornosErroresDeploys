@@ -1,0 +1,15 @@
+@dominio = http://localhost:3000
+@uid=67d1c9fd32e1c6e78b0ac4d1
+
+
+### get opinions
+GET {{dominio}}/api/v1/opinions
+
+### create opinion
+POST {{dominio}}/api/v1/opinions
+Content-Type: application/json
+
+{
+    "name":"MacStories",
+    "opinion": "Triage is my new favorite email app for iPhone."
+}
