@@ -1,9 +1,10 @@
 # ActividadAsin2-FS-Entornos
 
-Actividad asíncrona 2:
+Contenido:
+1. (Vídeo) Entornos: Desarrollo y producción
+2. (Vídeo) Vídeo práctico con entornos en ReactJS con Vite y Express
 
-2. React y Express | Entornos (3 horas)
-
+Descripción:
 Analizaremos la gestión de variables de entorno para optimizar tu flujo de trabajo para adaptarte a las distintas fases de desarrollo y producción tanto con ReactJS como en ExpressJS viendo:
 
 · Qué son los entornos
@@ -12,11 +13,13 @@ Analizaremos la gestión de variables de entorno para optimizar tu flujo de trab
 · Entorno en ReactJS con ViteJS
 · Entorno en ExpressJS 
 
+Entrega final:
+Crea una aplicación en ReactJS y una API en Express usando la maquetación proporcionada y configura los entornos
 
-### Solución:
+Deberás de configurar los archivos entornos para que al hacer:
+- "npm run dev" utilice la API en localhost 
+- "npm run build" utilice la API de Vercel 
 
-En en el front. Todo el contenido importante de los asíncronos se encuentra en el archivo dentro de la carpeta 'pages' 'TriageWeb.jsx'
+Puesto que en el contenido asíncrono veremos cómo subir a Vercel tanto la aplicación de ReactJS como la API en ExpressJS.
 
-
-# Para conectar mongoDB con vercel
-`https://www.mongodb.com/developer/products/atlas/how-to-connect-mongodb-atlas-to-vercel-using-the-new-integration/`
+Tiempo estimado: 3 horas
